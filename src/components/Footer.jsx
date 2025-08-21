@@ -95,7 +95,7 @@ export default function Footer() {
               <a href="tel:+919999999999" className="flex items-center gap-3">
                 <Phone className="text-blue-600" size={18} />
                 <span className="font-medium hover:text-blue-700 transition-colors">
-                  +91 99999 99999
+                  +91 97035 88400
                 </span>
               </a>
               <a
@@ -104,7 +104,7 @@ export default function Footer() {
               >
                 <Mail className="text-blue-600" size={18} />
                 <span className="hover:text-blue-700 transition-colors">
-                  support@autofinds.in
+                  kamran@autofinds.in
                 </span>
               </a>
             </div>
@@ -253,7 +253,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="tel:+919999999999"
+              href="tel:+919703588400"
               className="inline-flex items-center gap-2 rounded-full border border-blue-600 bg-white px-4 py-2 text-blue-700 font-medium hover:bg-blue-50 transition"
             >
               <Phone size={16} /> Call Us

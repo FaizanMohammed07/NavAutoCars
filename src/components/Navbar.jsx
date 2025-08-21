@@ -103,7 +103,6 @@
 
 // new nav
 
-// src/components/Navbar.jsx
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -119,7 +118,7 @@ import {
   Car,
 } from "lucide-react";
 
-import logo from "../assets/auto_transparent.png"; // Adjust the path as necessary
+import logo from "../assets/auto_transparent.png";
 
 export default function Navbar() {
   const [userOpen, setUserOpen] = useState(false);
@@ -263,7 +262,7 @@ export default function Navbar() {
 
             {/* Call Us (CTA) */}
             <a
-              href="tel:+919999999999"
+              href="tel:+91 97035 88400"
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium shadow-sm hover:shadow-md hover:opacity-95 transition"
             >
               Call Us
