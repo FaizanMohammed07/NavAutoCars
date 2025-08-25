@@ -74,8 +74,8 @@ export default function Footer() {
       </div>
 
       {/* Main grid */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pb-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
+      <div className="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-12 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-6 lg:gap-10">
           {/* Brand + Contact */}
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-extrabold text-blue-700 tracking-wide">
@@ -216,16 +216,16 @@ export default function Footer() {
             </p>
             <form
               onSubmit={(e) => e.preventDefault()}
-              className="flex items-stretch rounded-xl border border-gray-300 bg-white focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 transition"
+              className="flex flex-col sm:flex-row items-stretch rounded-xl border border-gray-300 bg-white focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600 transition"
             >
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-3 rounded-l-xl outline-none text-sm"
+                className="w-full px-4 py-3 rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none outline-none text-sm"
               />
               <button
                 type="submit"
-                className="px-5 py-3 rounded-r-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
+                className="px-5 py-3 rounded-b-xl sm:rounded-r-xl sm:rounded-bl-none bg-blue-600 text-white font-medium hover:bg-blue-700 transition"
               >
                 Subscribe
               </button>
